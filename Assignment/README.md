@@ -1,5 +1,5 @@
 # Josh Ford
-
+#
 # Lab Exercise 1: Introduction to C & Git
 This lab was meant to introduce one to to creating a .c program, properly documenting code,
 and proper commiting to git-hub.
@@ -10,13 +10,13 @@ After including the math.h and math.c files in the same working directory as you
 
   ## Valid Inputs
 
-    ### int1, int2
+  %09 ### int1, int2
 
       signed integers
 
-    ### Operator
+  ### %09 Operator
 
-      char which is valid for the following values: '+', '-', '*', '/', '%'
+      char which is valid for the following values: '+', '-', '*', '/', '%'.
 
 # Functions
 
@@ -26,7 +26,7 @@ After including the math.h and math.c files in the same working directory as you
 
   ## Subtract (char = '-')
 
-    int2 will be subtracted from int 1 and function will return the difference as a signed integer.
+    int2 will be subtracted from int1 and function will return the difference as a signed integer.
 
   ## Multiply (char = '*')
 
@@ -38,3 +38,13 @@ After including the math.h and math.c files in the same working directory as you
 
 # Known Errors
   No known errors
+  ```flow
+st=>start: Start
+e=>end
+op=>operation: My Operation
+cond=>condition: Yes or No?
+
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
