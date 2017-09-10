@@ -1,5 +1,6 @@
 # Josh Ford
 #
+
 # Lab Exercise 1: Introduction to C & Git
 This lab was meant to introduce one to to creating a .c program, properly documenting code,
 and proper commiting to git-hub.
@@ -8,43 +9,33 @@ and proper commiting to git-hub.
 
 After including the math.h and math.c files in the same working directory as your project, you need to simple call the following function to perform the require operation: Math(int1, int2, operator);
 
-  ## Valid Inputs
+## Valid Inputs
 
-  %09 ### int1, int2
+### int1, int2
 
       signed integers
 
-  ### %09 Operator
+### Operator
 
       char which is valid for the following values: '+', '-', '*', '/', '%'.
 
 # Functions
 
-  ## Add (char = '+')
+## Add (char = '+')
 
     int1 will be added to int2 and function will return the sum as a signed integer.
 
-  ## Subtract (char = '-')
+## Subtract (char = '-')
 
     int2 will be subtracted from int1 and function will return the difference as a signed integer.
 
-  ## Multiply (char = '*')
+## Multiply (char = '*')
 
     int1 will be multiplied by int2 and function will return the difference as a signed integer.
 
-  ## Divide (char = '/')
+## Divide (char = '/')
 
     int1 will be integer divided by int2. This will only return the quotient as an integer.
 
 # Known Errors
   No known errors
-  ```flow
-st=>start: Start
-e=>end
-op=>operation: My Operation
-cond=>condition: Yes or No?
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
