@@ -2,12 +2,17 @@
 #
 
 # Lab Exercise 1: Introduction to C & Git
+```
 This lab was meant to introduce one to to creating a .c program, properly documenting code,
 and proper commiting to git-hub.
+```
 
 #  Usage
 
-After including the math.h and math.c files in the same working directory as your project, you need to simple call the following function to perform the require operation: Math(int1, int2, operator);
+```
+After including the math.h and math.c files in the same working directory as your
+project, you need to simple call the following function to perform the require operation: Math(int1, int2, operator);
+```
 
 ## Valid Inputs
 
