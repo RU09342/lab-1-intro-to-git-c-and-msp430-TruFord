@@ -8,33 +8,33 @@ and proper commiting to git-hub.
 
 After including the math.h and math.c files in the same working directory as your project, you need to simple call the following function to perform the require operation: Math(int1, int2, operator);
 
-## Valid Inputs
+  ## Valid Inputs
 
-### int1, int2
+    ### int1, int2
 
-16-bit signed integers
+      signed integers
 
-### Operator
+    ### Operator
 
-char which is valid for the following values ['+', '-', '*', '/', '%']. Math() will return Null if this input it invalid.
+      char which is valid for the following values: '+', '-', '*', '/', '%'
 
 # Functions
 
-## Add (char = '+')
+  ## Add (char = '+')
 
-int1 will be added to int2 and function will return the sum as a signed integer.
+    int1 will be added to int2 and function will return the sum as a signed integer.
 
-## Subtract (char = '-')
+  ## Subtract (char = '-')
 
-int 2 will be subtracted from int 1 and function will return the difference as a signed integer.
+    int2 will be subtracted from int 1 and function will return the difference as a signed integer.
 
-## Multiply (char = '*')
+  ## Multiply (char = '*')
 
-int 1 will be multiplied by int2 and function will return the difference as a signed integer.
+    int1 will be multiplied by int2 and function will return the difference as a signed integer.
 
-## Divide (char = '/')
+  ## Divide (char = '/')
 
-int1 will be integer divided by int2. This will only return the quotient as an integer.
+    int1 will be integer divided by int2. This will only return the quotient as an integer.
 
 # Known Errors
-No known errors
+  No known errors
