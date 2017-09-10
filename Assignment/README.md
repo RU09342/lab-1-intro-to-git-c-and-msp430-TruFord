@@ -24,25 +24,13 @@ char which is valid for the following values ['+', '-', '*', '/', '%']. Math() w
 
 int1 will be added to int2 and function will return the sum as a signed integer.
 
-Example (10 + 20)
-
-Math( 10, 20, '+');
-
 ## Subtract (char = '-')
 
 int 2 will be subtracted from int 1 and function will return the difference as a signed integer.
 
-Example (10 - 20)
-
-Math( 10, 20, '-');
-
 ## Multiply (char = '*')
 
 int 1 will be multiplied by int2 and function will return the difference as a signed integer.
-
-Example (10 * 20)
-
-Math( 10, 20, '*');
 
 ## Divide (char = '/')
 
